@@ -5,7 +5,7 @@ export default function Home({title, id, price, meterage, roomCount, img}) {
   return (
     <>
     <div className="card">
-          <img src="img/gal-2.jpeg" alt="House 6" className="card__img" />
+          <img src={img} alt="House 6" className="card__img" />
           <h5 className="card__title">{title}</h5>
           <svg className="card__like">
             <use href="img/sprite.svg#icon-heart-full"></use>
